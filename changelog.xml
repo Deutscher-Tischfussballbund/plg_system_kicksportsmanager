@@ -1,0 +1,10 @@
+<changelogs>
+	<changelog>
+		<element>kicksportsmanager</element>
+		<type>plugin</type>
+		<version>1.0.0</version>
+		<note>
+			<item>first release</item>
+		</note>
+	</changelog>
+</changelogs>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>[PACKAGE_NAME]</name>
+	<creationDate>[DATE]</creationDate>
+	<author>[AUTHOR]</author>
+	<authorEmail>[AUTHOR_EMAIL]</authorEmail>
+	<authorUrl>https://kicktemp.com</authorUrl>
+	<copyright>[COPYRIGHT]</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>[VERSION]</version>
+	<changelogurl>https://raw.githubusercontent.com/Kicktemp/plg_system_kicksportsmanager/master/changelog.xml</changelogurl>
+	<description>PLG_SYSTEM_KICKSPORTSMANAGER_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<file plugin="kicksportsmanager">kicksportsmanager.php</file>
+		<folder>fields</folder>
+		<folder>language</folder>
+	</files>
+	<media destination="plg_system_kicksportsmanager" folder="media">
+		<folder>js</folder>
+	</media>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="resetlicense"
+					   label="PLG_SYSTEM_KICKSPORTSMANAGER_FIELD_RESETLICENSE_LABEL"
+					   description="PLG_SYSTEM_KICKSPORTSMANAGER_FIELD_RESETLICENSE_DESC"
+					   type="resetlicense"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="[PROJECT_NAME]">
+			https://raw.githubusercontent.com/Kicktemp/plg_system_kicksportsmanager/master/update.xml
+		</server>
+	</updateservers>
+</extension>
