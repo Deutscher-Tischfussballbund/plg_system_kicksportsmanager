@@ -8,7 +8,7 @@
 	<copyright>[COPYRIGHT]</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<version>[VERSION]</version>
-	<changelogurl>https://raw.githubusercontent.com/Kicktemp/plg_system_kicksportsmanager/master/changelog.xml</changelogurl>
+	<changelogurl>https://raw.githubusercontent.com/Kicktemp/plg_system_kicksportsmanager/main/changelog.xml</changelogurl>
 	<description>PLG_SYSTEM_KICKSPORTSMANAGER_XML_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>
 	<files>
@@ -32,7 +32,7 @@
 	</config>
 	<updateservers>
 		<server type="extension" priority="1" name="[PROJECT_NAME]">
-			https://raw.githubusercontent.com/Kicktemp/plg_system_kicksportsmanager/master/update.xml
+			https://raw.githubusercontent.com/Kicktemp/plg_system_kicksportsmanager/main/update.xml
 		</server>
 	</updateservers>
 </extension>
