@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates><update>
+  <name>System - KickSportsmanager</name>
+  <description>KickSportsmanager Plugin</description>
+  <element>kicksportsmanager</element>
+  <type>plugin</type>
+  <folder>system</folder>
+  <client>site</client>
+  <section>updates</section>
+  <version>1.0.0</version>
+  <changelogurl>https://raw.githubusercontent.com/Kicktemp/plg_system_kicksportsmanager/master/changelog.xml</changelogurl>
+  <infourl title="KickSportsmanager Plugin">https://github.com/Kicktemp/plg_system_kicksportsmanager/</infourl>
+  <downloads>
+    <downloadurl type="full" format="zip"><![CDATA[https://github.com/Kicktemp/plg_system_kicksportsmanager/releases/download/v1.0.0/plg_system_kicksportsmanager_1.0.0.zip]]></downloadurl>
+  </downloads>
+  <sha256>0166d102747829072b8807aba04562d815ec43288cbedb5e1e8bc2d8a8ff9938</sha256>
+  <sha384>5918a916fc7c0badc65fbf8dbc396ea9bec0771ee2d35ab3a3dbe58be96605b4a9c3002bb288d4d3db4b9e0f4e76c0af</sha384>
+  <sha512>7663b3ec375a758e16665d4732d4a81768cf72e08e32ba719cfa7ea75eae4f1a62fd299d5c92f37cb333287485602b65b1f9d56301b0477348365fb5979f544c</sha512>
+  <tags>
+    <tag>stable</tag>
+  </tags>
+  <maintainer>Kicktemp GmbH</maintainer>
+  <maintainerurl>https://kicktemp.com</maintainerurl>
+  <php_minimum>7.2.5</php_minimum>
+  <targetplatform name="joomla" version="3.*"/>
+</update>
+</updates>
