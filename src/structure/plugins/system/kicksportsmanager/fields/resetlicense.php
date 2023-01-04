@@ -53,7 +53,7 @@ class JFormFieldResetLicense extends FormField
 		$html[] = '<select id="where" class="form-select">';
 
 		$html[] = '<option value="">' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_SELECTWHERE') . '</option>';
-		$html[] = '<option value="*">' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_ALL') . '</option>';
+		$html[] = '<option value="ALL">' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_ALL') . '</option>';
 		$html[] = '<option value="A">A</option>';
 		$html[] = '<option value="B">B</option>';
 		$html[] = '<option value="C">C</option>';
@@ -65,10 +65,9 @@ class JFormFieldResetLicense extends FormField
 		$html[] = '<input data-url="' . Uri::base(false) . "index.php?option=com_ajax&plugin=ResetLicense&format=raw" . '" type="button" class="btn btn-success" value="' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_RESETLICENSE') . '" id="sportsmanagerresetlicense">';
 		$html[] = '</div>';
 		$html[] = '</div>';
-		$html[] = '<div id="ResetError" class="alert alert-danger hidden">' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_FILERENEW_ERROR') . '</div>';
-		$html[] = '<div id="ResetSuccess" class="alert alert-success hidden">' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_FILERENEW_SUCCESS') . '</div>';
+		$html[] = '<div id="ResetError" class="alert alert-danger hidden">' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_RESETLICENSE_ERROR') . '</div>';
+		$html[] = '<div id="ResetSuccess" class="alert alert-success hidden">' . Text::_('PLG_SYSTEM_KICKSPORTSMANAGER_RESETLICENSE_SUCCESS') . '</div>';
 
 		return implode("\n", $html);
 	}
-
 }

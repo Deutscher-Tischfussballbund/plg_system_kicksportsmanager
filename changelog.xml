@@ -2,6 +2,14 @@
 	<changelog>
 		<element>kicksportsmanager</element>
 		<type>plugin</type>
+		<version>1.0.3</version>
+		<fix>
+			<item>fix language strings</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>kicksportsmanager</element>
+		<type>plugin</type>
 		<version>1.0.2</version>
 		<fix>
 			<item>first release</item>
