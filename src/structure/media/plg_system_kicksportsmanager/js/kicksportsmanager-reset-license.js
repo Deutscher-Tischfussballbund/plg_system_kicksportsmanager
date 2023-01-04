@@ -7,22 +7,16 @@
   resetLicense = ({
                     target
                   }) => {
-    const where = document.getElementById('language');
+    const where = document.getElementById('where');
     const license = document.getElementById('license');
     const ResetSuccess = document.getElementById('ResetSuccess');
     const ResetError = document.getElementById('ResetError');
     const url = target.getAttribute('data-url');
 
-    if (language.value.length > 1 && type.value.length > 1) {
-      var postData = new FormData();
-      postData.append('postwhere', where.value);
-      postData.append('postlicense', license.value);
-
+    if (where.value.length >= 1 && license.value.length >= 1) {
       Joomla.request({
-        url: `${url}`,
-        data: postData,
-        method: 'POST',
-        perform: true,
+        url: `${url}&license=${license.value}&where=${where.value}`,
+        method: 'GET',
         onSuccess: resp => {
           ResetError.classList.add('hidden');
           ResetSuccess.classList.remove('hidden');

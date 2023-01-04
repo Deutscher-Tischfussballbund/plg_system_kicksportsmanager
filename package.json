@@ -1,7 +1,7 @@
 {
   "name": "KickSportsmanager",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "boilerplate": "cross-env NODE_ENV=development gulp boilerplate",
     "build": "cross-env NODE_ENV=production gulp build",
@@ -54,7 +54,7 @@
     "[AUTHOR_EMAIL]": "hello@kicktemp.com",
     "[COPYRIGHT]": "Copyright © 2023 Kicktemp GmbH. All rights reserved.",
     "[AUTHOR_URL]": "https://kicktemp.com",
-    "[DATE]": "03.01.2023",
+    "[DATE]": "04.01.2023",
     "[PLUGINTYPE]": "system"
   },
   "engines": {
